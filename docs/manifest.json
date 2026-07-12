@@ -1,0 +1,131 @@
+{
+  "source_base_path": "/home/runner/work/BlazorWebAppTemplate/BlazorWebAppTemplate/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.Business.DocFxTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.Business.DocFxTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.Business.DocFxTest",
+      "Summary": "<p sourcefile=\"api/Template.Business.DocFxTest.yml\" sourcestartlinenumber=\"1\">Das ist mein Test-Service für DocFX.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.Business.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.Business.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.Business",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.Data.DocFxTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.Data.DocFxTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.Data.DocFxTest",
+      "Summary": "<p sourcefile=\"api/Template.Data.DocFxTest.yml\" sourcestartlinenumber=\"1\">Das ist mein Test-Service für DocFX.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.Data.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.Data",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

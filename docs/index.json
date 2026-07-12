@@ -1,0 +1,37 @@
+{
+  "api/Template.Business.DocFxTest.html": {
+    "href": "api/Template.Business.DocFxTest.html",
+    "title": "Class DocFxTest | Template",
+    "summary": "Class DocFxTest Namespace Template.Business Assembly Template.Business.dll Das ist mein Test-Service für DocFX. public static class DocFxTest Inheritance object DocFxTest Inherited Members object.GetType() object.MemberwiseClone() object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() Methods HelloWorld() Eine Beispielmethode. public static void HelloWorld()"
+  },
+  "api/Template.Business.html": {
+    "href": "api/Template.Business.html",
+    "title": "Namespace Template.Business | Template",
+    "summary": "Namespace Template.Business Classes DocFxTest Das ist mein Test-Service für DocFX."
+  },
+  "api/Template.Data.DocFxTest.html": {
+    "href": "api/Template.Data.DocFxTest.html",
+    "title": "Class DocFxTest | Template",
+    "summary": "Class DocFxTest Namespace Template.Data Assembly Template.Data.dll Das ist mein Test-Service für DocFX. public static class DocFxTest Inheritance object DocFxTest Inherited Members object.GetType() object.MemberwiseClone() object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() Methods HelloWorld() Eine Beispielmethode. public static void HelloWorld()"
+  },
+  "api/Template.Data.html": {
+    "href": "api/Template.Data.html",
+    "title": "Namespace Template.Data | Template",
+    "summary": "Namespace Template.Data Classes DocFxTest Das ist mein Test-Service für DocFX."
+  },
+  "getting-started.html": {
+    "href": "getting-started.html",
+    "title": "Getting Started | Template",
+    "summary": "Getting Started"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | Template",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  },
+  "introduction.html": {
+    "href": "introduction.html",
+    "title": "Introduction | Template",
+    "summary": "Introduction"
+  }
+}
