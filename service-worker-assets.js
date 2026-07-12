@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "nONR2m4T",
+  "version": "tEGkQ1M9",
   "assets": [
     {
       "hash": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
@@ -146,15 +146,15 @@ self.assetsManifest = {
       "url": "_framework/System.Text.RegularExpressions.g17p9ig1md.wasm"
     },
     {
-      "hash": "sha256-TVbBMekON+yTSvJ/W1AX8HuTb3fPt+ilG18f0+nYWfk=",
-      "url": "_framework/Template.UI.rqjnyx2hn0.wasm"
+      "hash": "sha256-sbeXBGgpqISi6Ipn5lZwzJDoldHn4ZP19BsCJHotjRU=",
+      "url": "_framework/Template.UI.72ggnrluk5.wasm"
     },
     {
       "hash": "sha256-A59Tr9HqEhHMu8kU7kruLI9ayw5MRS6Lvc6z7jCbghk=",
       "url": "_framework/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-I3tPr3zq698HjkMF/Sspj7qGNJJhLa3rNyw7jsNjE1s=",
+      "hash": "sha256-B/BjOUpDmexIT2ALa9ECgCDv9QtNb7/Ss1hD1siVm8A=",
       "url": "_framework/dotnet.js"
     },
     {
@@ -382,8 +382,16 @@ self.assetsManifest = {
       "url": "manifest.webmanifest"
     },
     {
+      "hash": "sha256-PW2LZPxibcke09OtupkA2IJ5rrc8ch5R5wR/0E4PohE=",
+      "url": "robots.txt"
+    },
+    {
       "hash": "sha256-paIeuWnSzjeLGITWkk4p3rcejUsZWCJGPeOK9UhWXtg=",
       "url": "sample-data/weather.json"
+    },
+    {
+      "hash": "sha256-ZE3TyUt88Tc97oAKxatAyy6AtWrVboTGfdNiVJw5PF4=",
+      "url": "sitemap.xml"
     }
   ]
 };
