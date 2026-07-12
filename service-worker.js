@@ -1,4 +1,4 @@
-/* Manifest version: phrAKuz0 */
+/* Manifest version: axadLb1+ */
 // Caution! Be sure you understand the caveats before publishing an application with
 // offline support. See https://aka.ms/blazor-offline-considerations
 
@@ -40,10 +40,27 @@ async function onActivate(event) {
 async function onFetch(event) {
     let cachedResponse = null;
     if (event.request.method === 'GET') {
-        // For all navigation requests, try to serve index.html from cache,
-        // unless that request is for an offline resource.
-        // If you need some URLs to be server-rendered, edit the following check to exclude those URLs
+        const requestUrl = new URL(event.request.url);
+        if (requestUrl.pathname.includes('/docs/')) {
+            const cache = await caches.open('docfx-docs-cache');
+            try {
+                const networkResponse = await fetch(event.request);
+                if (networkResponse.status === 200) {
+                    await cache.put(event.request, networkResponse.clone());
+                }
+                return networkResponse;
+            } catch (error) {
+                const localMatch = await cache.match(event.request);
+                if (localMatch) return localMatch;
+                if (requestUrl.pathname.endsWith('/')) {
+                    const indexMatch = await cache.match(event.request.url + 'index.html');
+                    if (indexMatch) return indexMatch;
+                }
+                throw error;
+            }
+        }
         const shouldServeIndexHtml = event.request.mode === 'navigate'
+            && !requestUrl.pathname.includes('/docs/')
             && !manifestUrlList.some(url => url === event.request.url);
 
         const request = shouldServeIndexHtml ? 'index.html' : event.request;
