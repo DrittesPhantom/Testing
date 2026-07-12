@@ -7,13 +7,26 @@
         var pathSegmentsToKeep = 1;
 
         var l = window.location;
-        l.replace(
-            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-            l.hash
-        );
+        
+        // Ermittle den relativen Pfad nach dem Projektnamen
+        var pathSegments = l.pathname.split('/');
+        var relativePathIndex = 1 + pathSegmentsToKeep;
+        var relativePath = pathSegments.slice(relativePathIndex).join('/');
+
+        // PRÜFUNG: Wenn der Pfad mit "docs" beginnt, ist es DocFX. 
+        // Wir brechen die Blazor-Umleitung ab, damit GitHub Pages die echte DocFX-Seite sucht.
+        if (relativePath.toLowerCase().startsWith('docs')) {
+            document.write('<p>Dokumentation nicht gefunden.</p>');
+        } else {
+            // Standard Blazor SPA-Routing für alle anderen Pfade
+            l.replace(
+                l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+                pathSegments.slice(0, relativePathIndex).join('/') + '/?/' +
+                l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+                (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+                l.hash
+            );
+        }
     </script>
 </head>
 <body>
