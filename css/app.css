@@ -11,7 +11,7 @@ a, .btn-link {
 }
 
 .btn-primary {
-    color: #fff;
+    color: white;
     background-color: #1b6ec2;
     border-color: #1861ac;
 }
@@ -78,7 +78,7 @@ a, .btn-link {
 
     .loading-progress circle {
         fill: none;
-        stroke: #e0e0e0;
+        stroke: white;
         stroke-width: 0.6rem;
         transform-origin: 50% 50%;
         transform: rotate(-90deg);
