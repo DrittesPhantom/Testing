@@ -84,6 +84,43 @@
 <li><strong>Add Images:</strong> Place your visual assets into the <code>images</code> folder and reference them using standard Markdown syntax.</li>
 <li><strong>API Documentation:</strong> The API reference section is automatically updated based on your project's XML documentation comments.</li>
 </ol>
+<h2 id="docfx-customization">DocFx Customization</h2>
+<h3 id="hide-or-show-inheritance-members">Hide or Show Inheritance Members</h3>
+<p>In this Template Inheritance members are hidden by default.
+To make inheritance members in the API documentation visible, remove <code>&quot;hideInheritance&quot;</code> from the List in <code>docfx.json#L35-40</code></p>
+<pre><code class="lang-json"></code></pre><h3 id="change-output-directory">Change output directory</h3>
+<p>In this Template the standard output is publicly available at <code>WebRoot/docs/</code>.
+If you want to keep the documentation private:</p>
+<ol>
+<li>Change the output directory in <code>docfx.json#L35-36</code> to &quot;api&quot;:</li>
+</ol>
+<pre><code class="lang-json"></code></pre>
+<ol start="2">
+<li>Replace the <code>../src/Template.UI/wwwroot/404.html</code> with this:</li>
+</ol>
+<pre><code class="lang-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;title&gt;Redirecting...&lt;/title&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+        var pathSegmentsToKeep = 1;
+        var l = window.location;
+        // Standard Blazor SPA-Routing
+        l.replace(
+            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&amp;/g, '~and~') +
+            (l.search ? '&amp;' + l.search.slice(1).replace(/&amp;/g, '~and~') : '') +
+            l.hash
+        );
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p&gt;Redirecting to the application...&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
 <hr>
 <p class="text-center" style="margin-top: 30px;">
     <a href="../" class="btn btn-primary btn-lg" role="button" style="padding: 10px 30px;">

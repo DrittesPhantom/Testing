@@ -67,6 +67,174 @@
       "Summary": null
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.UI.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.UI.App.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.UI.App",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.UI.Layout.MainLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.UI.Layout.MainLayout.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.UI.Layout.MainLayout",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.UI.Layout.NavMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.UI.Layout.NavMenu.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.UI.Layout.NavMenu",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.UI.Layout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.UI.Layout.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.UI.Layout",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.UI.Pages.Counter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.UI.Pages.Counter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.UI.Pages.Counter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.UI.Pages.Home.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.UI.Pages.Home.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.UI.Pages.Home",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.UI.Pages.NotFound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.UI.Pages.NotFound.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.UI.Pages.NotFound",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.UI.Pages.Weather.WeatherForecast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.UI.Pages.Weather.WeatherForecast.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.UI.Pages.Weather.WeatherForecast",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.UI.Pages.Weather.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.UI.Pages.Weather.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.UI.Pages.Weather",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.UI.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.UI.Pages.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.UI.Pages",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.UI._Imports.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.UI._Imports.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.UI._Imports",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.UI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.UI",
+      "Summary": null
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {

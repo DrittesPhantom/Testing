@@ -81,18 +81,24 @@
 <h2 id="-prerequisites">📋 Prerequisites</h2>
 <p>Before cloning and running the application, ensure you have the following software installed:</p>
 <ul>
-<li><a href="https://microsoft.com">.NET 8.0 SDK</a> (or higher)</li>
-<li><a href="https://microsoft.com">Visual Studio 2026</a> / <a href="https://jetbrains.com">JetBrains Rider</a> / <a href="https://visualstudio.com">VS Code</a></li>
+<li><a href="https://dotnet.microsoft.com/en-us/download/dotnet/10.0">.NET 10.0 SDK</a> (or higher)</li>
+<li>An IDE or Code Editor:
+<ul>
+<li><a href="https://visualstudio.microsoft.com/de/downloads/">Visual Studio 2026</a> (Windows-only)</li>
+<li><a href="https://www.jetbrains.com/rider/">JetBrains Rider</a> (Cross-platform)</li>
+<li><a href="https://visualstudio.com">VS Code</a> with the C# Dev Kit extension (Cross-platform)</li>
+</ul>
+</li>
 <li>A modern web browser (Edge, Chrome, Firefox)</li>
 </ul>
 <h2 id="-local-setup-instructions">🛠️ Local Setup Instructions</h2>
 <h3 id="1-clone-the-repository">1. Clone the Repository</h3>
 <p>Open your terminal and run the following command to clone the project:</p>
 <pre><code class="lang-bash">git clone https://github.com/DrittesPhantom/BlazorWebAppTemplate
-cd your-repo-name
+cd BlazorWebAppTemplate
 </code></pre>
 <h3 id="2-install-workloads">2. Install Workloads</h3>
-<p>Install the wasm-tools workload ba running:</p>
+<p>Install the wasm-tools workload by running:</p>
 <pre><code class="lang-bash">dotnet workload install wasm-tools --skip-manifest-update --configfile src/NuGet.Config
 </code></pre>
 <h3 id="3-restore-dependencies">3. Restore Dependencies</h3>
@@ -103,11 +109,15 @@ cd your-repo-name
 <p>Navigate to the main project directory and start the development server:</p>
 <pre><code class="lang-bash">dotnet run --project src/Template.UI/Template.UI.csproj
 </code></pre>
-<p>Once started, open your browser and navigate to <code>https://localhost:5098</code>.</p>
+<p>Once started, open your browser and navigate to <code>https://localhost:5098</code> or <code>Ctrl+Click</code> on the link shown in the terminal.</p>
 <h2 id="-building-the-documentation-locally">📝 Building the Documentation Locally</h2>
-<p>If you want to preview changes made to these markdown files locally, ensure you have the <strong>DocFX CLI</strong> installed, then run:</p>
+<p>If you want to preview changes made to these markdown files locally, ensure you have the <strong>DocFX CLI</strong> installed, if not run:</p>
+<pre><code class="lang-bash">dotnet tool install -g docfx
+</code></pre>
+<p>Then run:</p>
 <pre><code class="lang-bash">docfx docs/docfx.json --serve
 </code></pre>
+<p>Once started, open your browser and navigate to <code>http://localhost:8080</code> or <code>Ctrl+Click</code> on the link shown in the terminal.</p>
 <hr>
 <p class="text-center" style="margin-top: 30px;">
     <a href="../" class="btn btn-primary btn-lg" role="button" style="padding: 10px 30px;">
