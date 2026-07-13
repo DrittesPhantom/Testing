@@ -22,16 +22,16 @@
   "getting-started.html": {
     "href": "getting-started.html",
     "title": "Getting Started | Template",
-    "summary": "Getting Started"
+    "summary": "\uD83D\uDE80 Getting Started Important Template Notice: This page contains generic setup instructions for the Blazor template. Update these steps to reflect your project's specific prerequisites, connection strings, or environment variables. Follow this guide to get your local development environment up and running. \uD83D\uDCCB Prerequisites Before cloning and running the application, ensure you have the following software installed: .NET 8.0 SDK (or higher) Visual Studio 2022 / JetBrains Rider / VS Code A modern web browser (Edge, Chrome, Firefox) \uD83D\uDEE0️ Local Setup Instructions 1. Clone the Repository Open your terminal and run the following command to clone the project: git clone https://github.com cd your-repo-name 2. Restore Dependencies Restore the NuGet packages using the .NET CLI: dotnet restore 3. Run the Application Navigate to the main project directory and start the development server: dotnet run --project src/YourBlazorProjectName Once started, open your browser and navigate to https://localhost:7001 (or the port specified in your terminal output). \uD83D\uDCDD Building the Documentation Locally If you want to preview changes made to these markdown files locally, ensure you have the DocFX CLI installed, then run: docfx docs/docfx.json --serve ↩ Back to Main Website"
   },
   "index.html": {
     "href": "index.html",
-    "title": "This is the HOMEPAGE. | Template",
-    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+    "title": "\uD83D\uDE80 Blazor Web App Template Documentation | Template",
+    "summary": "\uD83D\uDE80 Blazor Web App Template Documentation Important This is a template page. Please edit this file (index.md) to document your specific project features, setup guides, and architecture. This documentation was automatically generated using DocFX. Refer to the official Markdown Guide to learn how to write and format content for these pages. Quick Start Notes: Customize this Content: Open the docs folder in your source code and update the Markdown files. Add Images: Place your visual assets into the images folder and reference them using standard Markdown syntax. API Documentation: The API reference section is automatically updated based on your project's XML documentation comments. ↩ Back to Main Website"
   },
   "introduction.html": {
     "href": "introduction.html",
     "title": "Introduction | Template",
-    "summary": "Introduction"
+    "summary": "\uD83D\uDCD6 Introduction Important Template Notice: This is a placeholder introduction for your Blazor Project Template. Replace this text with an overview of your actual application's purpose, business logic, and core features. Welcome to the official documentation space. This platform serves as the central hub for understanding the architecture, design decisions, and codebase of this application. \uD83C\uDF1F Project Overview This project is a high-performance web application built with ASP.NET Core Blazor. It leverages modern web standards to deliver a scalable, maintainable, and user-friendly experience. Frontend: Blazor WebAssembly / Blazor Web App (Interactive Component Model) Documentation: Automatically compiled via DocFX from Markdown files and C# XML code comments. PWA Capabilities: Fully functional offline support with background asset synchronization. \uD83C\uDFAF What to Document Here? When adapting this template for your project, consider adding: The \"Why\": What problem does this application solve? Target Audience: Who are the primary users or developers interacting with this system? Core Modules: A high-level breakdown of the project's main components. ↩ Back to Main Website"
   }
 }

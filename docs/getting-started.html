@@ -70,9 +70,46 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="">
-<h1 id="getting-started">Getting Started</h1>
+        <article data-uid="getting_started">
+<h1 id="-getting-started">🚀 Getting Started</h1>
 
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p><strong>Template Notice:</strong> This page contains generic setup instructions for the Blazor template. Update these steps to reflect your project's specific prerequisites, connection strings, or environment variables.</p>
+</div>
+<p>Follow this guide to get your local development environment up and running.</p>
+<h2 id="-prerequisites">📋 Prerequisites</h2>
+<p>Before cloning and running the application, ensure you have the following software installed:</p>
+<ul>
+<li><a href="https://microsoft.com">.NET 8.0 SDK</a> (or higher)</li>
+<li><a href="https://microsoft.com">Visual Studio 2022</a> / <a href="https://jetbrains.com">JetBrains Rider</a> / <a href="https://visualstudio.com">VS Code</a></li>
+<li>A modern web browser (Edge, Chrome, Firefox)</li>
+</ul>
+<h2 id="-local-setup-instructions">🛠️ Local Setup Instructions</h2>
+<h3 id="1-clone-the-repository">1. Clone the Repository</h3>
+<p>Open your terminal and run the following command to clone the project:</p>
+<pre><code class="lang-bash">git clone https://github.com
+cd your-repo-name
+</code></pre>
+<h3 id="2-restore-dependencies">2. Restore Dependencies</h3>
+<p>Restore the NuGet packages using the .NET CLI:</p>
+<pre><code class="lang-bash">dotnet restore
+</code></pre>
+<h3 id="3-run-the-application">3. Run the Application</h3>
+<p>Navigate to the main project directory and start the development server:</p>
+<pre><code class="lang-bash">dotnet run --project src/YourBlazorProjectName
+</code></pre>
+<p>Once started, open your browser and navigate to <code>https://localhost:7001</code> (or the port specified in your terminal output).</p>
+<h2 id="-building-the-documentation-locally">📝 Building the Documentation Locally</h2>
+<p>If you want to preview changes made to these markdown files locally, ensure you have the <strong>DocFX CLI</strong> installed, then run:</p>
+<pre><code class="lang-bash">docfx docs/docfx.json --serve
+</code></pre>
+<hr>
+<p class="text-center" style="margin-top: 30px;">
+    <a href="../" class="btn btn-primary btn-lg" role="button" style="padding: 10px 30px;">
+        ↩ Back to Main Website
+    </a>
+</p>
 
 </article>
 

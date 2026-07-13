@@ -49,3 +49,9 @@ references:
   commentId: Overload:Template.Data.DocFxTest.HelloWorld
   fullName: Template.Data.DocFxTest.HelloWorld
   nameWithType: DocFxTest.HelloWorld
+- uid: getting_started
+  name: Getting Started
+  href: getting-started.html
+- uid: introduction
+  name: Introduction
+  href: introduction.html
