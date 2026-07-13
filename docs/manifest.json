@@ -12,45 +12,157 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Template.Business.DocFxTest.yml",
+      "source_relative_path": "api/Template.Business.ThemeServices.IThemeService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Template.Business.DocFxTest.html"
+          "relative_path": "api/Template.Business.ThemeServices.IThemeService.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Template.Business.DocFxTest",
-      "Summary": "<p sourcefile=\"api/Template.Business.DocFxTest.yml\" sourcestartlinenumber=\"1\">Das ist mein Test-Service für DocFX.</p>\n"
+      "Title": "Template.Business.ThemeServices.IThemeService",
+      "Summary": "<p sourcefile=\"api/Template.Business.ThemeServices.IThemeService.yml\" sourcestartlinenumber=\"1\">Definiert die Logik zur Verwaltung des visuellen Designs (Light-/Darkmode).</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Template.Business.yml",
+      "source_relative_path": "api/Template.Business.ThemeServices.ThemeService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Template.Business.html"
+          "relative_path": "api/Template.Business.ThemeServices.ThemeService.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Template.Business",
+      "Title": "Template.Business.ThemeServices.ThemeService",
+      "Summary": "<p sourcefile=\"api/Template.Business.ThemeServices.ThemeService.yml\" sourcestartlinenumber=\"1\">Implementiert die Theme-Verwaltung mittels JavaScript-Interop.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.Business.ThemeServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.Business.ThemeServices.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.Business.ThemeServices",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Template.Data.DocFxTest.yml",
+      "source_relative_path": "api/Template.Business.ToolServices.IToolService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Template.Data.DocFxTest.html"
+          "relative_path": "api/Template.Business.ToolServices.IToolService.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Template.Data.DocFxTest",
-      "Summary": "<p sourcefile=\"api/Template.Data.DocFxTest.yml\" sourcestartlinenumber=\"1\">Das ist mein Test-Service für DocFX.</p>\n"
+      "Title": "Template.Business.ToolServices.IToolService",
+      "Summary": "<p sourcefile=\"api/Template.Business.ToolServices.IToolService.yml\" sourcestartlinenumber=\"1\">Definiert die Geschäftslogik für die Verwaltung von Werkzeugen und deren Lagerorten.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.Business.ToolServices.ToolService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.Business.ToolServices.ToolService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.Business.ToolServices.ToolService",
+      "Summary": "<p sourcefile=\"api/Template.Business.ToolServices.ToolService.yml\" sourcestartlinenumber=\"1\">Implementiert die Geschäftslogik für das Werkzeug-Management unter Verwendung von Entity Framework Core.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.Business.ToolServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.Business.ToolServices.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.Business.ToolServices",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.Data.Entities.StorageLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.Data.Entities.StorageLocation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.Data.Entities.StorageLocation",
+      "Summary": "<p sourcefile=\"api/Template.Data.Entities.StorageLocation.yml\" sourcestartlinenumber=\"1\">Repräsentiert einen eindeutigen Lagerort im System, bestehend aus Regal und Fach.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.Data.Entities.Tool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.Data.Entities.Tool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.Data.Entities.Tool",
+      "Summary": "<p sourcefile=\"api/Template.Data.Entities.Tool.yml\" sourcestartlinenumber=\"1\">Repräsentiert die Stammdaten eines Werkzeugtyps (z. B. &quot;Hammer&quot;).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.Data.Entities.ToolInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.Data.Entities.ToolInstance.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.Data.Entities.ToolInstance",
+      "Summary": "<p sourcefile=\"api/Template.Data.Entities.ToolInstance.yml\" sourcestartlinenumber=\"1\">Repräsentiert ein konkretes, physisches Exemplar eines Werkzeugs an einem bestimmten Lagerort.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.Data.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.Data.Entities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.Data.Entities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.Data.ToolDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.Data.ToolDbContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.Data.ToolDbContext",
+      "Summary": "<p sourcefile=\"api/Template.Data.ToolDbContext.yml\" sourcestartlinenumber=\"1\">Der Entity Framework Core Datenbankkontext für die Werkzeugverwaltung.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -124,20 +236,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Template.UI.Pages.Counter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Template.UI.Pages.Counter.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Template.UI.Pages.Counter",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Template.UI.Pages.Home.yml",
       "output": {
         ".html": {
@@ -166,30 +264,58 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Template.UI.Pages.Weather.WeatherForecast.yml",
+      "source_relative_path": "api/Template.UI.Pages.ToolCreate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Template.UI.Pages.Weather.WeatherForecast.html"
+          "relative_path": "api/Template.UI.Pages.ToolCreate.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Template.UI.Pages.Weather.WeatherForecast",
+      "Title": "Template.UI.Pages.ToolCreate",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Template.UI.Pages.Weather.yml",
+      "source_relative_path": "api/Template.UI.Pages.ToolDetail.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Template.UI.Pages.Weather.html"
+          "relative_path": "api/Template.UI.Pages.ToolDetail.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "Template.UI.Pages.Weather",
+      "Title": "Template.UI.Pages.ToolDetail",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.UI.Pages.ToolFormModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.UI.Pages.ToolFormModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.UI.Pages.ToolFormModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Template.UI.Pages.ToolOverview.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Template.UI.Pages.ToolOverview.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Template.UI.Pages.ToolOverview",
       "Summary": null
     },
     {
