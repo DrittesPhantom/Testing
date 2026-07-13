@@ -1,0 +1,9 @@
+/* Hides the 'Inheritance' chain at the top of the class pages */
+.typelist.inheritance {
+    display: none !important;
+}
+
+/* Hides the 'Inherited Members' section list */
+.typelist.inheritedMembers {
+    display: none !important;
+}
