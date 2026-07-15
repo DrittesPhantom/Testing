@@ -211,15 +211,15 @@ references:
   commentId: T:Template.Business.ToolServices.ToolService
   fullName: Template.Business.ToolServices.ToolService
   nameWithType: ToolService
-- uid: Template.Business.ToolServices.ToolService.#ctor(Template.Data.ToolDbContext)
-  name: ToolService(ToolDbContext)
-  href: api/Template.Business.ToolServices.ToolService.html#Template_Business_ToolServices_ToolService__ctor_Template_Data_ToolDbContext_
-  commentId: M:Template.Business.ToolServices.ToolService.#ctor(Template.Data.ToolDbContext)
-  name.vb: New(ToolDbContext)
-  fullName: Template.Business.ToolServices.ToolService.ToolService(Template.Data.ToolDbContext)
-  fullName.vb: Template.Business.ToolServices.ToolService.New(Template.Data.ToolDbContext)
-  nameWithType: ToolService.ToolService(ToolDbContext)
-  nameWithType.vb: ToolService.New(ToolDbContext)
+- uid: Template.Business.ToolServices.ToolService.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{Template.Data.ToolDbContext})
+  name: ToolService(IDbContextFactory<ToolDbContext>)
+  href: api/Template.Business.ToolServices.ToolService.html#Template_Business_ToolServices_ToolService__ctor_Microsoft_EntityFrameworkCore_IDbContextFactory_Template_Data_ToolDbContext__
+  commentId: M:Template.Business.ToolServices.ToolService.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{Template.Data.ToolDbContext})
+  name.vb: New(IDbContextFactory(Of ToolDbContext))
+  fullName: Template.Business.ToolServices.ToolService.ToolService(Microsoft.EntityFrameworkCore.IDbContextFactory<Template.Data.ToolDbContext>)
+  fullName.vb: Template.Business.ToolServices.ToolService.New(Microsoft.EntityFrameworkCore.IDbContextFactory(Of Template.Data.ToolDbContext))
+  nameWithType: ToolService.ToolService(IDbContextFactory<ToolDbContext>)
+  nameWithType.vb: ToolService.New(IDbContextFactory(Of ToolDbContext))
 - uid: Template.Business.ToolServices.ToolService.#ctor*
   name: ToolService
   href: api/Template.Business.ToolServices.ToolService.html#Template_Business_ToolServices_ToolService__ctor_
@@ -667,6 +667,18 @@ references:
   commentId: Overload:Template.UI.App.BuildRenderTree
   fullName: Template.UI.App.BuildRenderTree
   nameWithType: App.BuildRenderTree
+- uid: Template.UI.App.OnInitializedAsync
+  name: OnInitializedAsync()
+  href: api/Template.UI.App.html#Template_UI_App_OnInitializedAsync
+  commentId: M:Template.UI.App.OnInitializedAsync
+  fullName: Template.UI.App.OnInitializedAsync()
+  nameWithType: App.OnInitializedAsync()
+- uid: Template.UI.App.OnInitializedAsync*
+  name: OnInitializedAsync
+  href: api/Template.UI.App.html#Template_UI_App_OnInitializedAsync_
+  commentId: Overload:Template.UI.App.OnInitializedAsync
+  fullName: Template.UI.App.OnInitializedAsync
+  nameWithType: App.OnInitializedAsync
 - uid: Template.UI.Layout
   name: Template.UI.Layout
   href: api/Template.UI.Layout.html

@@ -78,7 +78,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Template.Business.ToolServices.ToolService",
-      "Summary": "<p sourcefile=\"api/Template.Business.ToolServices.ToolService.yml\" sourcestartlinenumber=\"1\">Implementiert die Geschäftslogik für das Werkzeug-Management unter Verwendung von Entity Framework Core.</p>\n"
+      "Summary": "<p sourcefile=\"api/Template.Business.ToolServices.ToolService.yml\" sourcestartlinenumber=\"1\">Implementiert die Geschäftslogik für das Werkzeug-Management unter Verwendung der EF Core DbContextFactory für Blazor WASM.</p>\n"
     },
     {
       "type": "ManagedReference",

@@ -50,17 +50,6 @@
         <a href="." class="reload">Reload</a>
         <span class="dismiss">🗙</span>
     </div>
-    <script>
-        window.themeInterop = {
-            setTheme: (theme) => {
-                document.documentElement.setAttribute('data-bs-theme', theme);
-                localStorage.setItem('user-theme', theme);
-            },
-            getPreferredTheme: () => {
-                return localStorage.getItem('user-theme') || 'light';
-            }
-        };
-    </script>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>
         navigator.serviceWorker.register('service-worker.js', { updateViaCache: 'none' });

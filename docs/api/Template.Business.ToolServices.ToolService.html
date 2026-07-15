@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class ToolService | Template ">
       
-      <meta name="description" content="Implementiert die Gesch&#228;ftslogik f&#252;r das Werkzeug-Management unter Verwendung von Entity Framework Core.">
+      <meta name="description" content="Implementiert die Gesch&#228;ftslogik f&#252;r das Werkzeug-Management unter Verwendung der EF Core DbContextFactory f&#252;r Blazor WASM.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -97,7 +97,7 @@ Class ToolService  <a class="header-action link-secondary" title="View source" h
   <dl><dt>Assembly</dt><dd>Template.Business.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Implementiert die Geschäftslogik für das Werkzeug-Management unter Verwendung von Entity Framework Core.</p>
+  <div class="markdown summary"><p>Implementiert die Geschäftslogik für das Werkzeug-Management unter Verwendung der EF Core DbContextFactory für Blazor WASM.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -161,8 +161,8 @@ Class ToolService  <a class="header-action link-secondary" title="View source" h
 
   <a id="Template_Business_ToolServices_ToolService__ctor_" data-uid="Template.Business.ToolServices.ToolService.#ctor*"></a>
 
-  <h3 id="Template_Business_ToolServices_ToolService__ctor_Template_Data_ToolDbContext_" data-uid="Template.Business.ToolServices.ToolService.#ctor(Template.Data.ToolDbContext)">
-  ToolService(ToolDbContext)
+  <h3 id="Template_Business_ToolServices_ToolService__ctor_Microsoft_EntityFrameworkCore_IDbContextFactory_Template_Data_ToolDbContext__" data-uid="Template.Business.ToolServices.ToolService.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{Template.Data.ToolDbContext})">
+  ToolService(IDbContextFactory&lt;ToolDbContext&gt;)
   <a class="header-action link-secondary" title="View source" href="https://github.com/DrittesPhantom/BlazorWebAppTemplate/blob/main/src/Template.Business/ToolServices/ToolService.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -171,13 +171,13 @@ Class ToolService  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ToolService(ToolDbContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public ToolService(IDbContextFactory&lt;ToolDbContext&gt; dbFactory)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>context</code> <a class="xref" href="Template.Data.ToolDbContext.html">ToolDbContext</a></dt>
-    <dd><p>Der Entity Framework Datenbankkontext.</p>
+    <dt><code>dbFactory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.idbcontextfactory-1">IDbContextFactory</a>&lt;<a class="xref" href="https://github.com/DrittesPhantom/BlazorWebAppTemplate/blob/main/src/Template.Data/ToolDbContext.cs">ToolDbContext</a>&gt;</dt>
+    <dd><p>Die Factory zur Erstellung kurzlebiger Datenbankkontexte.</p>
 </dd>
   </dl>
 

@@ -221,3 +221,19 @@ code {
 [data-bs-theme="dark"] .top-row .btn-link {
     color: var(--bs-body-color);
 }
+
+/* ==========================================================================
+   7. Erweiterung für die Ladeanzeige (loading-progress) im Darkmode
+   ========================================================================== */
+
+[data-bs-theme="dark"] .loading-progress circle {
+    stroke: #3e3e42;
+}
+
+[data-bs-theme="dark"] .loading-progress circle:last-child {
+    stroke: #40afef;
+}
+
+[data-bs-theme="dark"] .loading-progress-text {
+    color: #f5f5f5;
+}
