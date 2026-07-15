@@ -1,19 +1,4 @@
 {
-  "api/Template.Business.ThemeServices.IThemeService.html": {
-    "href": "api/Template.Business.ThemeServices.IThemeService.html",
-    "title": "Interface IThemeService | Template",
-    "summary": "Interface IThemeService Namespace Template.Business.ThemeServices Assembly Template.Business.dll Definiert die Logik zur Verwaltung des visuellen Designs (Light-/Darkmode). public interface IThemeService Properties IsDarkMode Gibt an, ob der Darkmode aktuell aktiv ist. bool IsDarkMode { get; } Property Value bool Methods InitializeThemeAsync() Initialisiert das Theme beim App-Start basierend auf den Benutzereinstellungen. Task InitializeThemeAsync() Returns Task ToggleThemeAsync() Wechselt zwischen Lightmode und Darkmode. Task ToggleThemeAsync() Returns Task"
-  },
-  "api/Template.Business.ThemeServices.ThemeService.html": {
-    "href": "api/Template.Business.ThemeServices.ThemeService.html",
-    "title": "Class ThemeService | Template",
-    "summary": "Class ThemeService Namespace Template.Business.ThemeServices Assembly Template.Business.dll Implementiert die Theme-Verwaltung mittels JavaScript-Interop. public class ThemeService : IThemeService Inheritance object ThemeService Implements IThemeService Inherited Members object.GetType() object.MemberwiseClone() object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() Constructors ThemeService(IJSRuntime) Initialisiert eine neue Instanz der ThemeService-Klasse. public ThemeService(IJSRuntime js) Parameters js IJSRuntime Properties IsDarkMode Gibt an, ob der Darkmode aktuell aktiv ist. public bool IsDarkMode { get; } Property Value bool Methods InitializeThemeAsync() Initialisiert das Theme beim App-Start basierend auf den Benutzereinstellungen. public Task InitializeThemeAsync() Returns Task ToggleThemeAsync() Wechselt zwischen Lightmode und Darkmode. public Task ToggleThemeAsync() Returns Task"
-  },
-  "api/Template.Business.ThemeServices.html": {
-    "href": "api/Template.Business.ThemeServices.html",
-    "title": "Namespace Template.Business.ThemeServices | Template",
-    "summary": "Namespace Template.Business.ThemeServices Classes ThemeService Implementiert die Theme-Verwaltung mittels JavaScript-Interop. Interfaces IThemeService Definiert die Logik zur Verwaltung des visuellen Designs (Light-/Darkmode)."
-  },
   "api/Template.Business.ToolServices.IToolService.html": {
     "href": "api/Template.Business.ToolServices.IToolService.html",
     "title": "Interface IToolService | Template",
@@ -62,7 +47,7 @@
   "api/Template.UI.App.html": {
     "href": "api/Template.UI.App.html",
     "title": "Class App | Template",
-    "summary": "Class App Namespace Template.UI Assembly Template.UI.dll public class App : ComponentBase, IComponent, IHandleEvent, IHandleAfterRender Inheritance object ComponentBase App Implements IComponent IHandleEvent IHandleAfterRender Inherited Members ComponentBase.OnInitialized() ComponentBase.OnParametersSet() ComponentBase.OnParametersSetAsync() ComponentBase.StateHasChanged() ComponentBase.ShouldRender() ComponentBase.OnAfterRender(bool) ComponentBase.OnAfterRenderAsync(bool) ComponentBase.InvokeAsync(Action) ComponentBase.InvokeAsync(Func<Task>) ComponentBase.DispatchExceptionAsync(Exception) ComponentBase.SetParametersAsync(ParameterView) ComponentBase.RendererInfo ComponentBase.Assets ComponentBase.AssignedRenderMode object.GetType() object.MemberwiseClone() object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() Constructors App() public App() Methods BuildRenderTree(RenderTreeBuilder) protected override void BuildRenderTree(RenderTreeBuilder __builder) Parameters __builder RenderTreeBuilder OnInitializedAsync() protected override Task OnInitializedAsync() Returns Task"
+    "summary": "Class App Namespace Template.UI Assembly Template.UI.dll public class App : ComponentBase, IComponent, IHandleEvent, IHandleAfterRender Inheritance object ComponentBase App Implements IComponent IHandleEvent IHandleAfterRender Inherited Members ComponentBase.OnInitialized() ComponentBase.OnInitializedAsync() ComponentBase.OnParametersSet() ComponentBase.OnParametersSetAsync() ComponentBase.StateHasChanged() ComponentBase.ShouldRender() ComponentBase.OnAfterRender(bool) ComponentBase.OnAfterRenderAsync(bool) ComponentBase.InvokeAsync(Action) ComponentBase.InvokeAsync(Func<Task>) ComponentBase.DispatchExceptionAsync(Exception) ComponentBase.SetParametersAsync(ParameterView) ComponentBase.RendererInfo ComponentBase.Assets ComponentBase.AssignedRenderMode object.GetType() object.MemberwiseClone() object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() Constructors App() public App() Methods BuildRenderTree(RenderTreeBuilder) protected override void BuildRenderTree(RenderTreeBuilder __builder) Parameters __builder RenderTreeBuilder"
   },
   "api/Template.UI.Layout.MainLayout.html": {
     "href": "api/Template.UI.Layout.MainLayout.html",

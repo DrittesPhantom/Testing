@@ -12,48 +12,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Template.Business.ThemeServices.IThemeService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Template.Business.ThemeServices.IThemeService.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Template.Business.ThemeServices.IThemeService",
-      "Summary": "<p sourcefile=\"api/Template.Business.ThemeServices.IThemeService.yml\" sourcestartlinenumber=\"1\">Definiert die Logik zur Verwaltung des visuellen Designs (Light-/Darkmode).</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Template.Business.ThemeServices.ThemeService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Template.Business.ThemeServices.ThemeService.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Template.Business.ThemeServices.ThemeService",
-      "Summary": "<p sourcefile=\"api/Template.Business.ThemeServices.ThemeService.yml\" sourcestartlinenumber=\"1\">Implementiert die Theme-Verwaltung mittels JavaScript-Interop.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Template.Business.ThemeServices.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Template.Business.ThemeServices.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Template.Business.ThemeServices",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Template.Business.ToolServices.IToolService.yml",
       "output": {
         ".html": {
